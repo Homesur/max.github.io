@@ -1,0 +1,854 @@
+/* CSS Document */
+
+/* Svoy Shrift*/
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=cyrillic);
+/* END Svoy Shrift*/
+
+* {
+margin:0;
+padding:0;
+}
+
+html, body {height:100%; min-width: 1020px;} 
+html * { max-height:999999px; }
+
+a {
+outline: none;
+border: none;
+text-decoration: none;
+}
+
+IMG {border:none;}
+
+body {
+margin: 0;
+padding: 0;
+background:url("../images/bg.jpg") repeat 0 0 transparent;
+text-align:center;
+}
+
+
+#mainbox {
+width: 992px;
+height: auto;
+margin: 11px auto;
+}
+
+#header {
+width: 992px;
+height: 149px;
+float: none;
+background:url("../images/header1.jpg") no-repeat;
+text-align: right;
+}
+
+#logotip {
+width: 216px;
+height: 76px;
+margin-top: 28px;
+margin-left: 49px;
+background:url("../images/logo.jpg") no-repeat;
+float:left;
+}
+
+#logotip .inside a {
+display: block;
+width:216px;
+height:38px;
+}
+
+#topmenu {
+width: 75px;
+height: 21px;
+margin-top: 85px;
+margin-right: 24px;
+float:right;
+}
+
+#topmenu1 {
+background:url("../images/home.jpg") no-repeat;
+width: 22px;
+height: 22px;
+margin-top: 0px;
+margin-right: 4px;
+float:left;
+}
+
+#topmenu1 .inside a {
+display: block;
+width:22px;
+height:22px;
+}
+
+#topmenu2 {
+width: 17px;
+height: 17px;
+margin-top: 5px;
+float:left;
+}
+
+#topmenu3 {
+width: 26px;
+height: 17px;
+margin-top: 5px;
+float:right;
+}
+
+#mainmenu {
+float:left;
+width: 174px;
+text-align:center;
+float:left;
+}
+
+
+#content {
+float: right;
+width: 780px;
+min-height: 600px;
+text-align: justify;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #000000;
+line-height: 1.2;
+}
+
+#content p {
+text-indent: 30px;
+}
+
+.contentheading {
+text-align:justify;
+text-indent: 29px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: #000000;
+}
+
+.contentheading a {
+outline: none;
+border: none;
+text-decoration: none;
+color: #000000;
+}
+
+.links-on-mainpage a:link,.links-on-mainpage a:visited {
+outline: none;
+border: none;
+text-decoration: none;
+color: #000000;
+}
+
+.links-on-mainpage a:hover,.links-on-mainpage a:active {
+outline: none;
+border: none;
+text-decoration: none;
+color: #660066;
+}
+
+
+
+
+.links-kontakts a:link,.links-kontakts a:visited {
+outline: none;
+border: none;
+text-decoration: none;
+color: #2e4c40;
+}
+
+.links-kontakts a:hover,.links-kontakts a:active {
+outline: none;
+border: none;
+text-decoration: none;
+color: #660066;
+}
+
+#borderer {
+background: url("../images/bord.jpg") repeat-y;
+width: 818px;
+float:right;
+}
+
+#footer {
+clear:both;
+width: 992px;
+background:url("../images/footer.jpg") no-repeat;
+height: 66px;
+}
+
+#footercount {
+}
+
+#counters {
+width: 314px;
+height: 33px;
+float:left;
+margin-top: 10px;
+margin-left: 23px;
+text-align:left;
+}
+
+#copyrights {
+width: 500px;
+height: 33px;
+float:right;
+margin-right: 23px;
+text-align:right;
+margin-top: 10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #292929;
+}
+
+
+
+/* knopka - NAVERH */
+#toTop {
+position: fixed; top: 0px; left: 0px;
+opacity:0.6;
+cursor: pointer; 
+background:url("../images/to-up.jpg") 20px 20px no-repeat;
+display:block; 
+width:170px; 
+height:100%;  
+z-index:2000;  
+}  
+#toTop:hover{ 
+opacity:1; 
+} 
+
+
+
+/* Div REKLAMA VSEROSPISI - v kak pishem */
+#reklama { margin: 10px 0 20px 0;width: 774px; background-color:#3d3c37; height: 78px; }
+#reklama p{ text-indent: 0px;}
+#reklama-div1 { float: left; text-align: left;  padding: 8px 6px 11px 19px; color: #9eea49; font-weight: normal; font-style: normal; font-size:16px; letter-spacing: 0px; font-family:  'Roboto', Helvetica, Arial, sans-serif;}
+#reklama-div2 { float: left; text-align: left; width: 205px; padding: 13px 22px 0 22px; color: #ffffff; font-weight: normal; font-style: normal; font-size:18px; line-height: 24px; letter-spacing: 0px; font-family:  'Roboto', Helvetica, Arial, sans-serif;}
+#reklama-div3 { float: left; text-align: center; padding: 15px 0 0 0; width: 255px;}
+#reklama a { 
+	text-align:center; 
+	background-color: #6db120;
+    border: medium none;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    height: 46px;
+	line-height: 42px;
+    text-decoration: none;
+    width: 255px;
+	 -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;} 
+#reklama a:hover { background-color: #82c327; } 
+
+/* END Div REKLAMA - v kak pishem */
+
+
+
+
+
+/* Div Polosa gorizont - v kak pishem */
+#bord-h { clear:both; width: 775px; height: 6px; margin: 30px 0 10px 0; background: url("/images/stories/03howwework/bord-h.jpg") 0 0 repeat-x;}
+/* END Polosa gorizont  - v kak pishem */
+
+
+
+/* glavnaya stranica - new rospis i slaid-show */
+
+#box-on-mainpage {
+width: 773px;
+margin-top: 3px;
+}
+
+#new-rospis {
+width: 263px;
+height: 276px;
+float:left;
+}
+
+#slide-show {
+width: 500px;
+height: 276px;
+float:right;
+}
+
+
+
+
+/* module control elements */
+
+div.moduletable-alex {
+    margin-top: 19px;
+}
+	
+div.moduletable-alex a:link, div.moduletable-alex a:visited {
+    font-size: 17px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #40382e;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 4px; 
+	border: 0px;
+}
+
+div.moduletable-alex a:hover {
+    font-size: 17px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #b74b03;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 4px; 
+}
+
+#idmenu, #idconnect {
+    list-style-type: none ;
+}
+
+
+
+
+
+/* mainmenu control elements */
+
+
+ul#idmenu li a {
+	display: block;
+}
+
+li.item1 a, ul li.item2 a, ul li.item3 a, ul li.item7 a, ul li.item8 a, ul li.item9 a, ul li.item10 a, ul li.item11 a, ul li.item12 a,
+ul li.item28 a, ul li.item30 a
+{
+background: url("../images/sprite-mainmenu.jpg") no-repeat;
+}
+
+/* Mainpage item1 */
+ul li.item1 a:link, ul li.item1 a:visited {
+background-position: 0px 0px;
+height: 34px;
+width:161px;
+margin-top: 0px;
+margin-left: 5px;
+line-height: 31px;
+}
+
+ul li.item1 a:hover, ul li.item1 a:active {
+background-position: 0px -40px;
+height: 34px;
+width:161px;
+margin-top: 0px;
+margin-left: 5px;
+line-height: 31px;
+}
+
+
+/* O nas item7 */
+ul li.item7 a:link, ul li.item7 a:visited {
+background-position: -161px 0px;
+height: 30px;
+width:162px;
+margin-top: 3px;
+margin-bottom: 15px;
+margin-left: 5px;
+line-height: 23px;
+}
+
+ul li.item7 a:hover, ul li.item7 a:active  {
+background-position: -161px -40px;
+height: 30px;
+width:162px;
+margin-top: 3px;
+margin-bottom: 15px;
+margin-left: 5px;
+line-height: 23px;
+}
+
+
+/* Rospisi item2 */
+ul li.item2 a:link, ul li.item2 a:visited {
+background-position: -485px 0px;
+height: 36px;
+width:162px;
+margin-top: 2px;
+margin-left: 6px;
+line-height: 30px;
+}
+
+ul li.item2 a:hover, ul li.item2 a:active {
+background-position: -485px -40px;
+height: 36px;
+width:162px;
+margin-top: 2px;
+margin-left: 6px;
+line-height: 30px;
+}
+
+
+
+/* Kak pishem item8 */
+ul li.item8 a:link, ul li.item8 a:visited {
+background-position: -323px 0px;
+height: 32px;
+width:162px;
+margin-top: 2px;
+margin-left: 3px;
+line-height: 25px;
+}
+
+ul li.item8 a:hover, ul li.item8 a:active  {
+background-position: -323px -40px;
+height: 32px;
+width:162px;
+margin-top: 2px;
+margin-left: 3px;
+line-height: 25px;
+}
+
+
+/* Stoimost item3 */
+ul li.item3 a:link, ul li.item3 a:visited {
+background-position: -1109px 0px;
+height: 33px;
+width:159px;
+margin-top: 2px;
+margin-left: 5px;
+line-height: 30px;
+}
+
+ul li.item3 a:hover, ul li.item3 a:active {
+background-position: -1109px -40px;
+height: 33px;
+width:159px;
+margin-top: 2px;
+margin-left: 5px;
+line-height: 30px;
+}
+
+
+/* Kontakty item11 */
+ul li.item11 a:link, ul li.item11 a:visited {
+background-position: -957px 0px;
+height: 34px;
+width:152px;
+margin-top: 4px;
+margin-bottom: 15px;
+margin-left: 10px;
+line-height: 27px;
+}
+
+ul li.item11 a:hover, ul li.item11 a:active  {
+background-position: -957px -40px;
+height: 34px;
+width:152px;
+margin-top: 4px;
+margin-bottom: 15px;
+margin-left: 10px;
+line-height: 27px;
+}
+
+
+/* Ghivopis item9 */
+ul li.item9 a:link, ul li.item9 a:visited {
+background-position: -647px 0px;
+height: 32px;
+width:156px;
+margin-top: 5px;
+margin-left: 8px;
+line-height: 24px;
+}
+
+ul li.item9 a:hover, ul li.item9 a:active  {
+background-position: -647px -40px;
+height: 32px;
+width:156px;
+margin-top: 5px;
+margin-left: 8px;
+line-height: 24px;
+}
+
+
+/* Grafika item10, Kopii kartin item30 */
+ul li.item10 a:link, ul li.item10 a:visited,
+ul li.item30 a:link, ul li.item30 a:visited {
+background-position: -803px 0px;
+height: 36px;
+width:154px;
+margin-top: 4px;
+margin-left: 9px;
+line-height: 28px;
+}
+
+ul li.item10 a:hover, ul li.item10 a:active,
+ul li.item30 a:hover, ul li.item30 a:active {
+background-position: -803px -40px;
+height: 36px;
+width:154px;
+margin-top: 4px;
+margin-left: 9px;
+line-height: 28px;
+}
+
+
+/* Gostevaya item12 */
+ul li.item12 a:link, ul li.item12 a:visited {
+background-position: -1268px 0px;
+height: 40px;
+width:158px;
+margin-top: 3px;
+margin-left: 7px;
+line-height: 28px;
+}
+
+ul li.item12 a:hover, ul li.item12 a:active  {
+background-position: -1268px -40px;
+height: 40px;
+width:158px;
+margin-top: 3px;
+margin-left: 7px;
+line-height: 28px;
+}
+
+
+/* Poisk hudoghnikov item28 */
+ul li.item28 a:link, ul li.item28 a:visited {
+background-position: -485px 0px;
+height: 36px;
+width:162px;
+margin-top: 2px;
+margin-left: 6px;
+line-height: 32px;
+text-indent: 1px; 
+}
+
+ul li.item28 a:hover, ul li.item28 a:active {
+background-position: -485px -40px;
+height: 36px;
+width:162px;
+margin-top: 12px;
+margin-left: 6px;
+line-height: 32px;
+text-indent: 1px; 
+}
+
+
+
+
+
+
+/* menu - hudoghniki saita */
+
+div.moduletable-alex3 {
+    margin-top: 33px;
+}
+
+div.moduletable-alex3 h3 {
+    font-size: 13px;
+	font-weight:bold;
+	color: #40382e;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom: 9px;
+}
+
+div.moduletable-alex3 a {
+    font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 0px;
+}
+	
+div.moduletable-alex3 a:link, div.moduletable-alex3 a:visited { color: #40382e; }
+div.moduletable-alex3 a:hover, div.moduletable-alex3 a:active { color: #a71805; }
+
+div.moduletable-alex3 ul {
+  list-style-image: url("../images/arrow.jpg");
+  text-align: left;
+  margin-left: 27px;
+  line-height: 20px;
+}
+div.moduletable-alex3 li {
+  margin-top: -1px;
+}
+
+
+
+
+/* Menu svyaz s hudoghnikom */
+/* Knopka Svyazatsya s hudoghnikom */
+
+ul#idconnect li a {
+	display: block;
+}
+
+ul li.item23 a {
+background: url("../images/sprite-connect.jpg") no-repeat;
+height: 34px;
+width:300px;
+margin-left: 1px;
+line-height: 28px;
+}
+
+ul li.item23 a:link, ul li.item23 a:visited {
+background-position: 0px 0px;
+}
+
+ul li.item23 a:hover, ul li.item23 a:active  {
+background-position: 0px -34px;
+}
+
+
+
+/* END module control elements */
+
+
+
+
+
+
+/* Galereya rospisey - osnovnaya */
+
+.rospis-gallery-main {
+width: 773px;
+border: 1px solid #cbc6be;
+float:left;
+margin-top: 17px;
+}
+
+.rospis-image {
+width: 244px;
+height: 180px;
+float:left;
+}
+
+.rospis-text {
+width: 506px;
+height: 180px;
+text-align: justify;
+float:right;
+margin-right: 10px;
+font-size: 14px;
+}
+
+a.artists-link { font-style: italic; color: black;}
+a:hover.artists-link {color: #a71805;}
+
+.textmain {
+text-align: justify;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: #f7f5ef;
+}
+
+.textmain2 {
+text-align: justify;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight:bold;
+color: #2a4946;
+}
+
+
+/* Galereya ghivopisi i rgafiki */
+
+#allgallery {
+width: 788px;
+float:left;
+}
+
+.gallery {
+width: 180px; 
+height: 180px; 
+border: 1px solid #cbc6be; 
+float: left; 
+margin-top: 17px; 
+margin-right: 15px;
+text-align:center;
+}
+
+.textmain-artistlink a {
+text-align: justify;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: #f7f5ef;
+}
+
+.textmain-artistlink a:hover {
+color: white;
+}
+
+/* Galereya rospisey na glavnoy stranice */
+
+#rospismainpage {
+width: 789px;
+float:left;
+}
+
+.rospisbox {
+width: 244px; 
+height: 180px; 
+border: 1px solid #cbc6be; 
+float: left; 
+margin: 17px 17px 0 0; 
+text-align:center;
+}
+
+
+/* Stranica s biografiey i foto hudoghnika */
+
+#artists-page {
+width: 775px;
+float:left;
+}
+
+.artists-bio {
+width: 460px; 
+float: left; 
+text-align: justify;
+font-size: 14px;
+}
+
+.artists-foto {
+width: 302px; 
+float: right;
+margin-top: 5px;
+}
+
+.artists-foto img, .foto-rospisi {
+border: 1px solid #cbc6be;
+}
+
+
+
+/* Prosmotrovaya v galeree ghivopis i grafika */
+
+#prosmotr {
+width: 775px;
+text-align: center;
+float:left;
+margin-left: -30px;
+}
+
+#prosmotr img {
+border: 1px solid #cbc6be;
+}
+
+.prosmotr-p {
+margin-bottom: 7px;
+}
+
+.prosmotr-p a {color: black;}
+.prosmotr-p a:hover {color: #a71805;}
+
+#link-to-artist {
+width:220px;
+margin-left: 292px;
+}
+
+#link-to-artist a {
+background: url("../images/sprite-connect2.jpg") no-repeat;
+display: block;
+height: 25px;
+width:220px;
+line-height: 22px;
+}
+
+#link-to-artist a{ background-position: 0px 0px; color: black;}
+
+#link-to-artist a:hover { background-position: 0px -25px; color: #a71805;}
+
+
+
+/* stranica - o nas */
+
+.hudoghnik {
+	border: 1px solid #cbc6be;
+	width: 773px;  
+	margin: 17px 0 20px 0;
+	height: auto;
+	overflow:hidden;
+}
+.hudoghnik-text {
+width: 459px; 
+text-align: justify;
+margin: 5px 0px 0px 9px;
+float:left;
+}
+.hudoghnik-foto {
+width: 294px; 
+float: right;
+}
+
+#posmotret-raboty {
+width:216px;
+margin: 20px 0 0 20px;
+text-align:right;
+}
+
+#posmotret-raboty a {
+background: url("../images/sprite-arrow.jpg") no-repeat;
+display: block;
+height: 30px;
+width:216px;
+line-height: 27px;
+font-size: 17px;
+}
+
+#posmotret-raboty a { background-position: 0px 0px; color: #2a4946;}
+
+#posmotret-raboty a:hover { background-position: 0px -30px; color: #000000;}
+
+
+
+/* Menu - Mi VKontakte */
+
+#vk {
+list-style-type: none ;
+}
+
+li.item25 {
+width:122px;
+margin: 29px 0 0 22px;
+text-align:right;
+}
+
+li.item25 a {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+text-decoration: none;
+background: url("../images/vk.jpg") no-repeat;
+display: block;
+height: 24px;
+width:122px;
+line-height: 24px;
+font-size: 13px;
+}
+
+li.item25 a { background-position: 0px 0px; color: #40382e;}
+
+li.item25 a:hover { background-position: 0px -24px; color: #1a497d;}
+
+
+
+/* knopka - Smotret 1 stranicu - kak pishem 2 */
+
+#first-page {
+width:162px;
+margin: 15px 0 30px 28px;
+text-align:center;
+float:left;
+}
+
+#first-page a {
+background: url("../images/sprite-mainmenu.jpg") no-repeat;
+background-position: -485px 0px;
+display: block;
+height: 36px;
+width:162px;
+line-height: 30px;
+font-size: 17px;
+color: #2a4946;
+}
+
+#first-page a:hover { background-position: -485px -40px; color: #000000;}
+
+
+/* END */
